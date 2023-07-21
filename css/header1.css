@@ -1,0 +1,37 @@
+.background {
+    background: #f7f7f7;
+}
+
+.cabecario {
+    max-width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-primario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-primario a {
+    font-size: 0.9rem;
+    color: black;
+}
+
+
+@media(max-width:1051px) {
+    .background {
+        display: none;
+    }
+}

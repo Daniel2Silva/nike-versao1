@@ -1,0 +1,87 @@
+.produtos {
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filtros-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.filtros p,
+span {
+    color: #c6c6c6;
+}
+
+.filtros-item a {
+    font-size: 1.3rem;
+    color: #000;
+    border: #c6c6c6 solid 1px;
+    padding: 0.9rem 2rem;
+    border-radius: 40px;
+}
+
+
+
+.filtros-tenis {
+    margin-top: 10px;
+}
+
+.filtros-tenis1 {
+    border-top: 1px solid #c6c6c6;
+}
+
+.tenis {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.tenis-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    gap: 20px;
+}
+
+.tenis-item img {
+    max-width: 300px;
+}
+
+.tenis-item p {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 10px 0px;
+
+}
+
+.vapor {
+    border: #c6c6c6 solid 1px;
+}
+
+
+@media(max-width:1000px) {
+    .filtros-tenis {
+        display: none;
+    }
+
+    .filtros-item {
+        display: none;
+    }
+}
+
+@media(max-width:1000px){
+    .tenis{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
